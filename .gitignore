@@ -1,0 +1,12 @@
+/vendor/
+/uploads/**
+!/uploads/**/
+!/uploads/**/.gitkeep
+/text/guide_cvs/*
+!/text/guide_cvs/.gitkeep
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+/text/posts/*
+!/text/posts/.gitkeep

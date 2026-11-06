@@ -1,0 +1,136 @@
+@media(min-width: 768px) {
+  .field-label-responsive {
+    padding-top: .5rem;
+    text-align: right;
+  }
+}
+
+/*For xs device same code*/
+
+@media(min-width: 280px) and (max-width: 767px){
+	
+	.card-img{
+	  height: 750px;
+	}
+	
+	.bn-message button{
+	  width: 45%;
+	}
+
+	.natures {
+	  margin-left: 0;
+	}
+
+	.why_us{
+	  margin-left: 0;
+	}
+	
+	.hovereffect {
+  		height: 105%;
+	}
+
+	#map{
+	  margin-left: 0;
+	}
+	
+	.hill_sea_menu{
+	  height: 50%;
+	}
+
+	.division_cities{
+		margin-top: 0;
+	}
+
+	.city_image{
+	  margin-left: 0;
+	}
+
+	.city_map, .city_info, .city_rating{
+		margin-bottom: 5%;
+	}
+
+	.large_post .overlay_2{
+	  margin-top: 35%;
+	}
+
+	.small_post .overlay_2{
+	  margin-top: 35%;
+	} 
+
+	.invest_form{
+	  	margin-left: 0;
+	}
+
+	.success_message{
+	  margin-left: 0;
+	}
+
+	.tourist_spot_check{
+	  margin-left: 0;
+	}
+
+	.faqHeader {
+        font-size: 22px;
+        margin: 20px;
+    }
+	
+	.rating-block{
+	  padding:10px 10px 20px 10px;
+	}
+	
+	
+}/*End of 767px*/
+
+/*For xs device*/
+
+@media(min-width: 280px) and (max-width: 320px){
+
+	
+}/*End of 320px*/
+
+@media(min-width: 321px) and (max-width: 480px){
+
+	
+}/*End of 480px*/
+
+@media(min-width: 481px) and (max-width: 640px){
+	
+
+}/*End of 640px*/
+
+@media(min-width: 641px) and (max-width: 767px){
+	
+
+}/*End of 767px*/
+
+/*For sm device*/
+
+@media(min-width: 724px) and (max-width: 767px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	
+}/*End of 991px*/
+
+/*For md device*/
+
+@media(min-width: 992px) and (max-width: 1024px){
+
+
+	
+}/*End of 1024px*/
+
+@media(min-width: 1025px) and (max-width: 1199px){
+
+	
+}/*End of 1199px*/
+
+/*For lg device*/
+
+@media(min-width: 1200px) and (max-width: 1920px){
+
+	
+
+}/*End of 1920px*/

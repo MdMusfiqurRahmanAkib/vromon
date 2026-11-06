@@ -1,0 +1,1381 @@
+.card-img{
+  opacity: 0.3;
+  height: 550px;
+}
+
+.card-img-overlay{
+  font-weight: bold;
+
+}
+
+.nav_buttons button{
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
+.nav-item{
+  margin-right: 5%;
+}
+
+.menu_area{
+  color: #000000;
+}
+
+.navbar-toggler{
+  background: #d0d3d4;
+  margin-bottom: 5%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.menu-area{
+  margin-left: 10%;
+}
+
+.dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important}
+.mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a , .navbar-expand-lg .navbar-nav .nav-link{color:#ffffff;font-size:18px;font-weight: bold;text-transform:capitalize;padding:16px 25px;font-family:'Roboto',sans-serif;display: block !important;}
+.mainmenu .active a,.mainmenu .active a:focus,.mainmenu .active a:hover,.mainmenu li a:hover,.mainmenu li a:focus ,.navbar-default .navbar-nav>.show>a, .navbar-default .navbar-nav>.show>a:focus, .navbar-default .navbar-nav>.show>a:hover{outline: 0;}
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{color: #000000;}
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover{background: #ffffff;}
+.mainmenu .collapse ul ul ul > li:hover > a{background:#ffffff;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#000000;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#000000}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#64B5F6}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px;width: 100%;}
+@media only screen and (min-width: 767px) {
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+
+}
+@media only screen and (max-width: 767px) {
+.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
+.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+}
+
+.btn-font{
+	font-size: 18px;
+}
+
+.bn-message{
+	color: #ffffff;
+	margin: 5% 0;
+}
+
+.bn-message button{
+  font-size: 20px;
+}
+
+
+.img-thumbnail{
+	height: 200px;
+  overflow: hidden;
+}
+
+
+.login_btn{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.footer-about, .footer-help{
+  margin-bottom: 5%;
+}
+
+/*start follow area*/
+  .follow{
+    margin-top: 20px; 
+  }
+
+  .f-text{
+    padding-top: 15px;
+  }
+  
+  .fl {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fl:hover {
+      opacity: 0.7;
+      transition: 1s;
+      color: white;
+      text-decoration: none;
+  }
+
+  .fl-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fl-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fl-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fl-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fl-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fl-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fl-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+/*end follow area*/ 
+
+/*start header*/
+
+.search-btn{
+  padding: 2% 5%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+/*end header*/
+
+/*general CSS */
+.images{
+  margin-top: 20px;
+}
+
+.natures {
+  margin: 5% 0 5% 10%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+}
+
+.why_us{
+  margin-left: 25%;
+}
+
+.mar-img{
+  margin: 5% 0 2% 0;
+}
+
+.review_section{
+  margin-top: 5%;
+}
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 200px;
+}
+
+.fas{
+  color: #FF8C00;
+}
+
+.all_button{
+  margin-top: 2%;
+}
+
+.btn-dark:hover{
+  transition: 1s;
+  background: #1D8348;
+  border: 1px solid #1D8348;
+  color: #ffffff;
+}
+a:hover{
+  text-decoration: none;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 90%;
+    /* Set the hr color */
+    background-color: #333; /* Modern Browsers */
+}
+/*END general CSS */
+
+/*======================== start about style ========================*/
+
+h6.description{
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  padding-bottom: 5px;
+}
+.profile{
+  margin-top: 25px;
+}
+.profile h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin:10px 0 0 0;
+}
+.profile h2{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile .img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box img{
+  width:100%;
+  height: 100%;
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.img-box ul li{
+  width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box li:hover{
+  background: #fff;
+}
+.img-box ul a{
+    color: #88C425;
+}
+.img-box ul a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+.img-box ul i.red{
+    color:#BC0213;
+}
+
+#story{
+  margin: 2% 0 5% 0;
+} 
+
+.story_brief{
+  margin-left: 25%;
+}
+
+.our_story_image, .future_plan_image{
+  margin: 2% 0 5% 0;
+}
+.our_story_image img, .future_plan_image img{
+  width: 100%;
+  height: 300px;
+}
+.our_story_descrptions{
+  margin: 5% 0;
+}
+
+.future_plan_descrptions{
+  margin: 10% 0;
+}
+.info-section{
+  width:100%;
+  padding:5rem 0;
+  position: relative;
+  z-index: 1;
+}
+.info-section h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.info-section .head-sec{
+  float: left;
+  width:100%;
+}
+
+.info-section h3{
+  font-size: 1.4rem;
+}
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+.info-section .box h2{
+    font-size:24px;
+    margin-bottom:20px;
+    margin-top:0;
+}
+
+.info-section .box i{
+    font-size:20px;
+}
+.info-section .box{
+    display:flex;
+}
+.info-section .text-box{
+    flex:1 1 0;
+    text-align:left;
+}
+.info-section .icon-box{
+    line-height: 1.2;
+    width:70px;
+}
+.info-section .service-block-overlay{
+  background: #fff  ;
+  color: #000000;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+}
+.info-section .service-block-overlay:hover{
+  background: #7f8c8d none repeat scroll 0 0;
+  color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+}
+.content-half{
+    color:#fff;
+}
+.content-half ul{
+    padding:0;
+    list-style:none;
+}
+.content-half ul li{
+    margin:15px 0;
+    float:left;
+    width:100%;
+}
+.content-half ul li i{
+    float:left;
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.content-half ul li .list-content{
+    float:left;
+    margin-left:20px;
+}
+.content-half ul li strong{
+    font-size:19px;
+    font-weight:700;
+}
+.content-half .btn{
+    margin-top:20px;
+}
+
+/*======================== end about style ========================*/
+
+/*======================== Start team members style ========================*/
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+  background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+ background-color: #2C3E50;   
+}
+
+/*======================== end team members style ========================*/
+
+
+
+/*start sidebar */
+
+.search{
+  margin-bottom: 20%;
+}
+
+.search a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.vertical-menu {
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #C0C0C0;
+}
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #2E4053;
+    color: white;
+}
+
+.archive{
+  margin-top: 20%;
+}
+
+.form-control option{
+    background: #ffffff;
+}
+
+.tags{
+  margin-top: 20%;
+}
+
+.tags .btn{
+  margin: 5% 2% 0 0;
+  color: #000000;
+  border-radius: 0;
+}
+
+.tags .btn:hover{
+  color: #ffffff;
+}
+/*END sidebar */
+
+/*start blog_post */
+
+#blog{
+  margin-top: 5%;
+}
+
+.blog_post{
+  margin-bottom: 20%;
+  border: 1px solid #C0C0C0;
+}
+
+/*end blog_post */
+
+.paging{
+  border: none;
+  font-size: 20px;
+}
+
+.page-link {
+  color: #000000;
+}
+
+.page-link:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* start map style*/
+#map{
+  margin-left: 40%;
+}
+/* end map style*/
+
+
+/* start season style*/
+.season{
+  margin-bottom: 5%;
+}
+
+/* end season style*/
+
+/* start contact style*/
+#gmap{
+  margin-left: 12%;
+  overflow:hidden;
+  height:440px;
+  width:100%;
+}
+
+#gmap_canvas{
+  height:440px;
+  width:80%;
+}
+
+#gmap_canvas img{
+  max-width:none !important;
+  background:none !important
+}
+
+.contact, .contact_form {
+  margin-top: 5%;
+}
+
+.c_icon{
+  font-size: 80px;
+  color: #000000;
+}
+
+.c_title{
+  font-size: 30px;
+}
+
+.c_details{
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 3%;  
+}
+
+.form-group label{
+  font-size: 25px;
+}
+
+/* end contact style*/
+
+
+/*start tour plan*/
+ #regiration_form fieldset:not(:first-of-type) {
+    display: none;
+  }
+
+  .plan_form_header{
+    margin-top: 5%;
+    font-weight: bold;
+    color: #2F4F4F;
+  }
+
+  .plan_form{
+    margin-top: 5%;
+  }
+
+  .transport{
+    margin-top: 2%;
+  }
+
+/*end tour plan*/
+
+/*start register*/
+
+.success_message{
+  margin-left: 30%;
+}
+
+/*end register*/
+
+/*start cities*/
+.city_name{
+  margin: 2% 0;
+  padding: 2% 0;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(170,170,170,0.4);
+}
+
+.hovereffect h2, .hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: bold;
+  height: 85%;
+  width: 85%;
+  position: absolute;
+  top: -20%;
+  left: 8%;
+  padding: 70px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/*end cities*/
+
+/*=========================  start hotel details ================================*/
+
+
+.main_image img{
+  width: 100%;
+  height: 400px;
+  padding: 1%;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.small_image{
+  width: 45%;
+  height: 100%;
+  margin:0 2% 5% 0;
+}
+
+.small_image img{
+  width: 100%;
+  height: 157px;
+}
+
+/*=========================  end hotel details ================================*/
+
+
+/*start city season*/
+.city_info_rating{
+  margin: 2% 0;
+}
+
+.city_image{
+  margin-left: 10%;
+}
+.city_image img{
+  width: 100%;
+  height: 400px;
+}
+
+.city_map img{
+  height: 90%;
+}
+
+.progress-bar{
+  padding: 30% 0;
+}
+
+.hovereffect_2 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect_2 .overlay_2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0,0,0,0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect_2 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect_2 h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0,0,0,0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  padding: 10px;
+}
+
+.hovereffect_2 p{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.large_post a, .small_post a{
+  color: #ffffff;
+}
+
+.hovereffect_2:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect_2:hover .overlay_2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect_2:hover h2,.hovereffect_2:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect_2:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+.large_post{
+  height: 101%;
+}
+
+.small_post{
+  height: 49%;
+  margin-bottom: 5%;
+}
+
+.large_post .overlay_2{
+  margin-top: 55%;
+} 
+
+.small_post .overlay_2{
+  margin-top: 40%;
+} 
+
+
+/*end city season*/
+
+/*start hills*/
+.hill_sea_menu, .city_menu{
+  height: 200px;
+}
+
+.hill_sea{
+  display: none;
+}
+
+/*end hills*/
+
+/*start transports*/
+
+.transport_form, .transports{
+  margin-bottom: 5%;
+}
+
+/*end transports*/
+
+/*start hotels*/
+.hotel{
+  margin-bottom: 5%;
+}
+
+/*end hotels*/
+
+/*start city*/
+
+.city{
+  margin-bottom: 5%;
+}
+
+.districts{
+  display: none;
+}
+/*end city*/
+
+/*start tour package*/
+
+.package_form{
+  margin-bottom: 5%;
+}
+
+/*end tour package*/
+
+/*=========================  start package details ================================*/
+
+#package_details .carousel-inner .carousel-item{
+  height: 300px;
+}
+
+#package_info{
+  margin-top: 5%;
+}
+
+.day_plan, .hotels, .food_plan{
+  margin-top: 5%;
+}
+
+.day_plan .table-bordered tbody td, .food_plan .table-bordered tbody td{
+  border: 1px solid #000000;
+}
+
+.day_plan .table-bordered tbody th, .food_plan .table-bordered tbody th{
+  background: #000000;
+  color: #ffffff;
+}
+
+.policy_title, .policy_description{
+  margin-top: 5%;
+}
+
+/*=========================  end package details ================================*/
+
+/*=========================  start restaurant details ================================*/
+
+.restaurant_info{
+  margin-top: 2%;
+}
+
+.food_category{
+  margin-top: 5%;
+}
+
+.food_category .table-bordered tbody td{
+  border: 1px solid #000000;
+}
+
+.food_category .table-bordered tbody th{
+  background: #000000;
+  color: #ffffff;
+}
+
+/*=========================  end restaurant details ================================*/
+/*start invest*/
+
+.invest_form{
+  margin-left: 20%;
+}
+.invest_form .row{
+  margin: 2% 0;
+}
+
+/*end invest*/
+
+/*start guide*/
+.form-group label {
+    font-size: 16px;
+}
+
+
+/*end guide*/
+
+/* start review*/
+
+.btn-grey{
+    background-color:#D8D8D8;
+  color:#FFF;
+}
+.rating-block{
+  background-color:#FAFAFA;
+  border:1px solid #EFEFEF;
+  padding:15px 15px 20px 15px;
+  border-radius:3px;
+}
+.bold{
+  font-weight:700;
+}
+.padding-bottom-7{
+  padding-bottom:7px;
+}
+
+.review-block{
+  background-color:#FAFAFA;
+  border:1px solid #EFEFEF;
+  padding:15px;
+  border-radius:3px;
+  margin-bottom:15px;
+}
+.review-block img{
+  height: 60%;
+  width: 100%;
+}
+
+.review-block-name{
+  font-size:12px;
+  margin:10px 0;
+}
+
+.review-block-date{
+  font-size:12px;
+}
+.review-block-rate{
+  font-size:13px;
+  margin-bottom:15px;
+}
+
+.review-block-rate a{
+  color: #000000;
+}
+
+.review-block-title{
+  font-size:15px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.review-block-description{
+  font-size:13px;
+}
+
+/* end review*/
+
+/* start faq */
+
+    .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+
+    .panel-collapse{
+      padding: 2%;
+    }
+/* end faq */
+
+/*start checkbox*/
+
+/* Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.check_button{
+  margin-right: 2%;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+  width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+    
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+  text-indent: 0;
+}
+
+/*end checkbox*/
+
+/*start profile */
+
+.tab-pane{
+  background: #ffffff;
+}
+
+/*end profile */
+
+/*start single post*/
+
+.post_details a, .post_writter a{
+  color: #000000;
+}
+
+.post_description{
+  margin-top: 2%;
+}
+
+.post_image img{
+  width: 100%;
+  height: 300px;
+}
+
+.right_sidear{
+  height: 100%;
+  border: 1px solid #C0C0C0;
+}
+
+.post_title{
+  margin-top: 2%;
+}
+
+.post_writter{
+  margin-top: 5%;
+}
+
+.like_button{
+  margin-bottom: 2%;
+}
+
+.liked{
+  border-radius: 7%;
+  background: #28a745;
+  color: #ffffff; 
+}
+
+.liked h6{
+  padding: 5% 0;
+}
+
+.comment_box{
+  width: 200%;
+}
+
+
+/*end single post*/
+
+/*start writter_posts*/
+.writter_post{
+  margin: 0 0 5% 0;
+}
+
+/*end writter_posts*/
+
+/*start subscribe area*/
+
+#subscribe{
+  margin-top: 50px;
+  padding: 50px 0;
+  background: #008080;
+  color: #ffffff;
+}
+
+.subscribe-form{
+  margin: 3% 0;
+}
+
+.subscribe-form input{
+  width: 50%;
+  height: 40px;
+  border:1px solid #282828;
+  padding-left: 10px;
+}
+
+.subscribe-form button{
+  height: 40px;
+}
+
+.subscribe-form input::placeholder{
+  padding-left: 15px;
+}
+
+
+/*start footer area*/
+
+.footer{
+  
+  padding: 20px 0;
+  background-color: #006400;
+  color: #ffffff;
+}
+
+.footer-content{
+  margin-top: 50px;
+}
+
+.footer-about h4, .footer-help h4, .footer-adress h4{
+  font-weight: bold;
+}
+
+.footer-para{
+  margin-top: 30px;
+}
+
+.footer-list ul{
+  margin-left: -40px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.footer-list li{
+  padding-bottom: 5px;
+}
+
+.footer-list li a{
+  color: #ffffff;
+}
+
+.footer-list li a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.adress-content{
+  margin-top: 30px;
+}
+
+.adress-content p{
+  padding: 5px;
+}
+
+
+.copyright{
+  padding: 1% 0;
+  width: 100%;
+  background:#90EE90;
+  color: #000000;
+}
+
+.copyright_text{
+  margin-top: 2%;
+}
+
+.plus-minus-input {
+  align-items: center;
+
+  .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+
+    &::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+      appearance: none;
+    }
+  }
+
+  .input-group-button {
+    .circle {
+      border-radius: 50%;
+      padding: 0.25em 0.8em;
+    }
+  }
+}
+.like-active{
+  color: yellow;
+}
